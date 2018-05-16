@@ -69,6 +69,7 @@ export default {
 | count | `count('arrayProperty')` | no |
 | countBy | `countBy('arrayProperty', 'done', true)` | no |
 | classObject | `classObject('isPrimary', 'has-title:title', 'wide')` | yes |
+| byIndex | `byIndex('arrayProperty', 0)` | no |
 
 `x` means that it can be either value or property name. If you provide a string and there will be a property with that name it's value will be used to perform the check.
 
